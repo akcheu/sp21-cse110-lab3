@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang=”en”>
+    <head>
+        <title>Allen's Journal</title>
+        <meta charset="utf-8">
+        <link rel="icon" href="Allen.png">
+    </head>
+    <body>
+        <main>
+            <nav class="menu">
+                <ol>
+                  <li><a href="#">Day 1</a></li>
+                  <li><a href="#">Day 2</a></li>
+                  <li><a href="#">Day 3</a></li>
+                </ol>
+              </nav>
+
+            <header>[ Allen's Journal Website ]</header>
+            <div class="images">
+                <img src="Allen.png" width="100"/>
+            </div>
+            <h1>Journal Entries</h1>
+            <hr>
+            <h2>Thursday (4/15) </h2>
+            <section>
+                <h3><li>Diary</li></h3>
+                <p> Today was a <em>tiring</em> day. While I only had <b>two</b> classes (one in the morning and one in the afternoon), I had to attend many meetings for my research lab. As the only undergraduate in my research project, I am starting to feel imposter syndrome since everyone seems to know what they are doing and are extremely qualified. While the domain is incredibly interesting to me, I am starting to wonder whether research is for me and if I should pursue grdaduate school. I also feel extremely overhwelmed right now with work and wrote a Haiku poem to express my feelings:</p>
+                <p>
+                    <i>I have too much work</i><br>
+                    <i>When will I have time to rest</i><br>
+                    <i>I can't wait for break</i><br>
+                </p>
+                <h3><li>Task List</li></h3>
+                <ul>
+                    <li>CSE 110 Professor Greeting on Slack (<strong>Due Friday</strong>)</li>
+                    <li>Try to fix bug for research project</li>
+                    <li>Catch up on yesterday's lecture for 140L</li>
+                </ul>
+            </section>
+            <hr>
+            <h2>Friday (4/16) </h2>
+            <section>
+                <h3><li>Diary</li></h3>
+                <p> Wow, what a day! Just like yesterday, I had to attend a lot of meetings for my research labs and did not have much time to rest in between. Today, I finished a few homework assignments which definitely made me feel a lot more productive. I also went to the Biomedical Library to study from 3:00 - 6:00 PM in the afternoon. Then, I met up with my friend for dinner at Sixth College. Overall, it was a pretty nice and productive day :) I also saw some raccoons at night while walking back to my apartment! </p>
+                <video controls width="250">
+                    <source src="raccoon.MP4"
+                            type="video/mp4">
+                </video>
+                <h3><li>Task List</li></h3>
+                <ul>
+                    <li>Work on this CSE 110 Website! (<strong>Due Sunday</strong>)</li>
+                    <li>Catch up on CSE 110 Lecture and take review quiz (<strong>Due Sunday</strong>)</li>
+                    <li>Perform prelimary experiments for research project</li>
+                    <li>Start work on CSE 140 <a href="https://cseweb.ucsd.edu/classes/sp21/cse140-a/assignments.html">Homework 1</a> (<strong>Due Monday</strong>) </li>
+                </ul>
+            </section>
+            <hr>
+            <h2>Saturday (4/17) </h2>
+            <section>
+                <h3><li>Diary</li></h3>
+                <p>Finally the weekend! Unfortunately, I did not do much today besides catching up on homework and lectures. I know, very boring. But, I was still able to go outside for a walk and watch the sunset near Gliderport. I also took some time today to rest and practice piano at night. I'm currently learning this really beautiful piece by my favorite composer - Chopin. Feel free to take a listen below. I've also included a short list of my favorite piano pieces under the dropdown menu!</p>
+                <figure>
+                    <figcaption>Listen to the Chopin Nocturne Op.9 No.2:</figcaption>
+                    <audio
+                        controls
+                        src="chopin.mp3">
+                    </audio>
+                </figure>
+                <details>
+                    <summary>Favorite Piano Pieces</summary>
+                    <ul>
+                        <li>Liszt - Liebestraum No. 3</li>
+                        <li>Chopin - Fantasie Impromptu Op. 66</li>
+                        <li>Beethoven - Sonanta Pathetique No. 8 in C Minor</li>
+                    </ul>
+                </details>
+                
+                <h3><li>Task List</li></h3>
+                <ul>
+                    <li>Finish CSE 110 Website (<strong>Due Sunday</strong>)</li>
+                    <li>Finish CSE 140 Homework 1 (<strong>Due Monday</strong>)</li>
+                    <li>Run more experiments for research project</li>
+                </ul>
+            </section>
+            <hr>
+            <h3> New Journal Entry</h3>
+            <form class="entry-form">
+                <div class="entry-form">
+                  <label for="name">Enter your diary entry: </label>
+                  <input type="text" name="name" id="name">
+                </div>
+                <div class="entry-form">
+                    <label>Was it a good or bad day?</label>
+                    <input type="checkbox" id="good" name="good">
+                    <label for="good">Good</label>
+                    <input type="checkbox" id="bad" name="bad">
+                    <label for="bad">Bad</label>
+                </div>
+                <div class="entry-form">
+                    <label>Rate your day on a scale of 1 - 10:</label>
+                    <input type="radio" id="1" name="1">
+                    <label for="1">1</label>
+                    <input type="radio" id="2" name="2">
+                    <label for="2">2</label>
+                    <input type="radio" id="3" name="3">
+                    <label for="3">3</label>
+                    <input type="radio" id="4" name="4">
+                    <label for="4">4</label>
+                    <input type="radio" id="5" name="5">
+                    <label for="5">5</label>
+                    <input type="radio" id="6" name="6">
+                    <label for="6">6</label>
+                    <input type="radio" id="7" name="7">
+                    <label for="7">7</label>
+                    <input type="radio" id="8" name="8">
+                    <label for="8">8</label>
+                    <input type="radio" id="9" name="9">
+                    <label for="9">9</label>
+                    <input type="radio" id="10" name="10">
+                    <label for="10">10</label>
+                </div>
+                <div class="entry-form">
+                    <label for="name">Today's date: </label>
+                    <input type="date" name="day" id="day">
+                  </div>
+              </form>
+            <hr>
+            <footer>Created by Allen Cheung on April 11, 2021</footer>
+        </main>
+    </body>
+</html>
