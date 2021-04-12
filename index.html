@@ -14,7 +14,6 @@
                   <li><a href="#">Day 3</a></li>
                 </ol>
               </nav>
-
             <header>[ Allen's Journal Website ]</header>
             <div class="images">
                 <img src="Allen.png" width="100"/>
@@ -32,9 +31,9 @@
                 </p>
                 <h3><li>Task List</li></h3>
                 <ul>
-                    <li>CSE 110 Professor Greeting on Slack (<strong>Due Friday</strong>)</li>
+                    <li><span class = "course">CSE 110</span> Professor Greeting on Slack (<strong>Due Friday</strong>)</li>
                     <li>Try to fix bug for research project</li>
-                    <li>Catch up on yesterday's lecture for 140L</li>
+                    <li>Catch up on yesterday's lecture for <span class = "course">140L</span></li>
                 </ul>
             </section>
             <hr>
@@ -86,43 +85,88 @@
             <h3> New Journal Entry</h3>
             <form class="entry-form">
                 <div class="entry-form">
-                  <label for="name">Enter your diary entry: </label>
-                  <input type="text" name="name" id="name">
+                    <fieldset>
+                        <legend>Enter your diary entry:</legend>
+                        <textarea id="story" name="story" rows="15" cols="75"> How was your day? </textarea>
+                    </fieldset>
                 </div>
                 <div class="entry-form">
-                    <label>Was it a good or bad day?</label>
-                    <input type="checkbox" id="good" name="good">
-                    <label for="good">Good</label>
-                    <input type="checkbox" id="bad" name="bad">
-                    <label for="bad">Bad</label>
+                    <fieldset>
+                        <legend>Enter your name:</legend>
+                        <input type="text" name="name" id="name">
+                    </fieldset>
+                  
                 </div>
                 <div class="entry-form">
-                    <label>Rate your day on a scale of 1 - 10:</label>
-                    <input type="radio" id="1" name="1">
-                    <label for="1">1</label>
-                    <input type="radio" id="2" name="2">
-                    <label for="2">2</label>
-                    <input type="radio" id="3" name="3">
-                    <label for="3">3</label>
-                    <input type="radio" id="4" name="4">
-                    <label for="4">4</label>
-                    <input type="radio" id="5" name="5">
-                    <label for="5">5</label>
-                    <input type="radio" id="6" name="6">
-                    <label for="6">6</label>
-                    <input type="radio" id="7" name="7">
-                    <label for="7">7</label>
-                    <input type="radio" id="8" name="8">
-                    <label for="8">8</label>
-                    <input type="radio" id="9" name="9">
-                    <label for="9">9</label>
-                    <input type="radio" id="10" name="10">
-                    <label for="10">10</label>
+                    <fieldset>
+                        <legend>Was it a good or bad day?</legend>
+                        <input type="checkbox" id="good" name="good">
+                        <label for="good">Good</label>
+                        <input type="checkbox" id="bad" name="bad">
+                        <label for="bad">Bad</label>
+                    </fieldset>
                 </div>
                 <div class="entry-form">
-                    <label for="name">Today's date: </label>
-                    <input type="date" name="day" id="day">
-                  </div>
+                    <fieldset>
+                        <legend>Rate your day on a scale of 1 - 10:</legend>
+                        <input type="radio" id="1" name="1">
+                        <label for="1">1</label>
+                        <input type="radio" id="2" name="2">
+                        <label for="2">2</label>
+                        <input type="radio" id="3" name="3">
+                        <label for="3">3</label>
+                        <input type="radio" id="4" name="4">
+                        <label for="4">4</label>
+                        <input type="radio" id="5" name="5">
+                        <label for="5">5</label>
+                        <input type="radio" id="6" name="6">
+                        <label for="6">6</label>
+                        <input type="radio" id="7" name="7">
+                        <label for="7">7</label>
+                        <input type="radio" id="8" name="8">
+                        <label for="8">8</label>
+                        <input type="radio" id="9" name="9">
+                        <label for="9">9</label>
+                        <input type="radio" id="10" name="10">
+                        <label for="10">10</label>
+                    </fieldset>
+                </div>
+                <div class="entry-form">
+                    <fieldset>
+                        <legend>Choose a mood:</legend>
+                        <input list="moods" id="myMood" name="myMood"/>
+                        <datalist id="moods">
+                            <option value="Happy">
+                            <option value="Sad">
+                            <option value="Angry">
+                            <option value="Tired">
+                            <option value="Bored">
+                            <option value="Stressed">
+                        </datalist>
+                    </fieldset>
+                </div>
+                <div class = "entry-form">
+                    <fieldset>
+                        <legend>Choose an attachment</legend>
+                            <select name="attachments" id="attachment-select">
+                                <option value="">--Please choose an option--</option>
+                                <option value="Video">Video</option>
+                                <option value="Audio">Audio</option>
+                                <option value="Picture">Photo</option>
+                            </select>
+                    </fieldset>
+                </div>
+                <div class="entry-form">
+                    <fieldset>
+                        <legend>Today's date:</legend>
+                        <input type="date" name="day" id="day">
+                    </fieldset>
+                </div>
+                <div class="entry-form">
+                    <button class="submit" type="button">
+                        SUBMIT
+                    </button>
+                </div>
               </form>
             <hr>
             <footer>Created by Allen Cheung on April 11, 2021</footer>
