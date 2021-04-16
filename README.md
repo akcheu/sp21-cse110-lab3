@@ -1,1 +1,1 @@
-https://akcheu.github.io/Lab2/
+akcheu.github.io/sp21-cse110-lab3
