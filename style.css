@@ -22,11 +22,17 @@ h3 {
 
 video {
     padding-left: 120px;
+    order: 2;
 }
 
 p {
     color: hsl(236, 41%, 15%);
     text-align: justify;
+}
+
+ul {
+    margin: auto;
+    order: 3;
 }
 
 p:active {
@@ -42,6 +48,10 @@ p, ul, ol {
 }
 
 section {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: column wrap;
+    justify-content: flex-;
     margin: 10px 10px 10px 10px;
     width: 500px;
     background-color:wheat;
@@ -71,11 +81,14 @@ ol {
 }
 
 form {
+    display: grid;
+    grid-template-rows: 100px 100px 100px;
+    row-gap: 25px;
+    justify-items: center;
     min-height: none;
     max-height: none;
     padding-top: 20px;
     padding-bottom: 20px;
-    margin: auto;
     width: 50vh;
 }
 
