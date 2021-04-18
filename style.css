@@ -29,6 +29,10 @@ p {
     text-align: justify;
 }
 
+p:active {
+    color: greenyellow;
+}
+
 p, ul, ol {
     position: static;
     margin-top: 10px;
