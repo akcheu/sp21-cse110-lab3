@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-**Issue:**
+**CSS Element:**
 
 **Description:**
 
