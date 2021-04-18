@@ -43,6 +43,26 @@ p:active {
     color: greenyellow; /* paragraph text color change when click */
 }
 
+details li { /* descendant combinator */
+    color:rgb(255, 0, 255);
+}
+
+section > ul {  /* child combinator */
+    color: blueviolet;
+}
+
+p ~ h3 {  /* general sibling combinator */
+    color: green;
+}
+
+p + p {  /* adjacent sibling combinator */
+    color: brown;
+}
+
+form.entry-form { /* combining two selectors */
+    color: seagreen;
+}
+
 p, ul, ol { /* formatting for paragraph and lists */
     position: static; 
     margin-top: 10px;
