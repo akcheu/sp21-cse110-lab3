@@ -18,6 +18,7 @@ h3 {
 
 p {
     color: hsl(236, 41%, 15%);
+    text-align: justify;
 }
 
 p, ul, ol {
@@ -42,6 +43,14 @@ ol {
     width: 500px;
 }
 
+*[lang^=en] {
+    color: rgb(0, 70, 0);
+}
+
+#story {
+    text-decoration: blue wavy underline;
+}
+
 form {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -55,4 +64,8 @@ input {
 
 button {
     width: 10vw;
+}
+
+button:hover {
+    color: rgb(255, 0, 255);
 }
