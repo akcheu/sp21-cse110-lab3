@@ -6,6 +6,10 @@ body {
     font-family: 'Lato', sans-serif; /* universal font change */
 }
 
+nav {
+    display: none; /* hide nav bar element */
+}
+
 header {
     display: none; /* hide top header element */
 }
