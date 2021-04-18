@@ -61,6 +61,8 @@ ol {
 }
 
 form {
+    min-height: none;
+    max-height: none;
     padding-top: 20px;
     padding-bottom: 20px;
     margin: auto;
@@ -73,6 +75,9 @@ input {
 
 button {
     width: 10vw;
+    height: 50px;
+    min-height: 20px;
+    max-height: 100px;
 }
 
 button:hover {
