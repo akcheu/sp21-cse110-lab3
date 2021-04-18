@@ -2,6 +2,10 @@ body {
     background-color:rgb(177, 241, 250);;
 }
 
+* {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     display: none;
 }
