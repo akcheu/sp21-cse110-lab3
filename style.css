@@ -2,6 +2,10 @@ body {
     background-color:rgb(177, 241, 250);;
 }
 
+header {
+    display: none;
+}
+
 h1 {
     color:rgb(0, 0, 0);
 }
@@ -14,6 +18,10 @@ h2 {
 
 h3 {
     color: navy;
+}
+
+video {
+    padding-left: 120px;
 }
 
 p {
@@ -35,6 +43,7 @@ section {
 }
 
 .course {
+    display: inline-block;
     font-size: 1.15rem;
     color:orchid;
 }
