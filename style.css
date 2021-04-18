@@ -7,6 +7,7 @@ h1 {
 }
 
 h2 {
+    width: 6in;
     background-color:rgb(49, 77, 110);
     color: #ffffff;
 }
@@ -16,6 +17,27 @@ h3 {
 }
 
 p {
-    background-color:wheat;
     color: hsl(236, 41%, 15%);
+}
+
+section {
+    width: 500px;
+    background-color:wheat;
+}
+
+.course {
+    font-size: 1.15rem;
+    color:orchid;
+}
+
+form {
+    width: 50vh;
+}
+
+input {
+    width: 10cm;
+}
+
+button {
+    width: 10vw;
 }
