@@ -1,3 +1,21 @@
 body {
-    background-color:rgb(177, 241, 250);
+    background-color:rgb(177, 241, 250);;
+}
+
+h1 {
+    color:rgb(0, 0, 0);
+}
+
+h2 {
+    background-color:rgb(49, 77, 110);
+    color: #ffffff;
+}
+
+h3 {
+    color: navy;
+}
+
+p {
+    background-color:wheat;
+    color: hsl(236, 41%, 15%);
 }
